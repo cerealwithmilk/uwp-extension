@@ -7,7 +7,7 @@ Allows to join ROBLOX games from the website with the Microsoft Store client
 2. Go to your browser extensions page, `edge://extensions`, `chrome://extensions`, `brave://extensions`
 3. Enable the Developer Mode, this is absolutely required to install the extension.
 4. Drag & drop the downloaded file onto the tab, an menu should show up saying if you want to install the extension, accept.
-5. Done! You instally successfully the extension.
+5. Done! You installed successfully the extension.
 
 ## Advanced Installation | Manually Pack
 **WARNING:** You **require** a chronium based browser to install this extension, Firefox or Safari are **not** supported for the moment
