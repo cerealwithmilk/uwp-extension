@@ -19,6 +19,6 @@
 
     "content_scripts": [{
         "js": ["main.js"],
-        "matches": ["https://www.roblox.com/*"]
+        "matches": ["https://www.roblox.com/*", "https://web.roblox.com/*"]
     }]
 }
