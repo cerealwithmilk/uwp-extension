@@ -26,7 +26,7 @@ function createButton(url) {
 switch (!document.getElementById("gamelaunch")) {
     case false:
         const dataToParse = document.getElementById("gamelaunch").src;
-        const regex = /placeId%3D(.*)%26accessCode%3D(.*)%26linkCode%3D(.*)%26/gm;
+        const regex = /placeId%3D([^&]*)%26accessCode%3D([^&]*)%26linkCode%3D([^&]*)/gm;
         const result = regex.exec(dataToParse);
       
         createButton(`roblox://placeID=${result[1]}&accessCode=${result[2]}&linkCode=${result[3]}`);
