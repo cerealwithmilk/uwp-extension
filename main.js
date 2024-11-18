@@ -1,7 +1,3 @@
-// moonlight hub
-// author: (hook) on discord "drawing.new"
-// date: 2023-06-30
-
 function createButton(url) {
     if (document.querySelector(".moonlight-button")) return;
 
